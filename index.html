@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PcComponentes Store | Galería Dinámica</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" alt="PcComponentes"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Componentes</a></li>
+                <li><a href="#">Periféricos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#">Mi Cuenta</a>
+            <a href="#">Carrito</a>
+        </div>
+    </header>
+
+    <main class="layout">
+        <section class="filtros" id="filtros">
+            <h2>Filtros</h2>
+            <!-- Aquí podrías poner filtros dinámicos, pero lo dejamos vacío para la práctica básica -->
+        </section>
+        <section class="productos" id="galeria-productos">
+            <h2>Nuestros Productos Destacados</h2>
+            <ul class="grid-productos" id="lista-productos">
+                <!-- Las tarjetas de productos las genera el JS -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PcComponentes Store | Proyecto de prácticas web - No oficial</p>
+        <nav>
+            <ul>
+                <li><a href="#">Aviso Legal</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
